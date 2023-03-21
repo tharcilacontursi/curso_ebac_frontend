@@ -1,0 +1,156 @@
+* {
+    color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li a {
+    color: rgb(253, 255, 253);
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
+
+}
+
+.creation-date {
+    color: #ccc;
+}
+
+h1 {
+    color: rgb(245, 246, 245);
+}
+
+body>header {
+    background-color: #2f3640;
+    padding: 16 0;
+}
+
+header li {
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+section h2,
+article .article {
+    margin-bottom: 16px;
+}
+
+article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+article a {
+    background-color: rgb(103, 103, 115);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+}
+
+article p a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+article a :hover {
+    text-decoration: underline;
+}
+
+#entertainment h2 {
+    color: rgb(159, 61, 198);
+}
+
+#entertainment {
+    background-color: rgb(236, 193, 236);
+    margin: 16 auto;
+}
+
+#entertainment .article article a {
+    background-color: rgb(159, 61, 198);
+    color: #fff;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 16px;
+}
+
+#technology h2 {
+    color: rgb(17, 73, 177);
+}
+
+#technology {
+    background-color: rgb(135, 180, 232);
+}
+
+#technology .article article a {
+    background-color: rgb(17, 73, 177);
+    color: #fff;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#sport h2 {
+    color: green;
+}
+
+#sport {
+    background-color: rgb(223, 248, 185);
+}
+
+#sport .article article a {
+    background-color: rgb(79, 128, 79);
+    color: #fff;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+#economy h2 {
+    color: gold;
+}
+
+#economy {
+    background-color: rgb(249, 249, 201);
+}
+
+#economy .article article a {
+    background-color: rgb(236, 172, 22);
+    color: #fff;
+    font-weight: bold;
+    margin-top: 8px;
+}
