@@ -1,0 +1,63 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(248, 247, 245);
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+.form {
+    margin-top: 25px;    
+}
+#input-a,
+#input-b,
+#button {
+    border: 2px solid rgb(221, 179, 100);
+    display: block;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    resize:none;
+}
+p {
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+button {
+    background-color: rgb(228, 199, 174);
+    border: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(203, 161, 125);
+}
+
+.sucess-message { 
+background-color: rgb(17, 169, 17);
+padding: 16px;
+font-size: 18px;
+margin-bottom: 6px;
+color: #fff;
+font-weight: bold;
+display: none;
+}
+
+.error-message {
+background-color: rgb(246, 103, 37);
+padding: 16px;
+font-size: 18px;
+margin-bottom: 6px;
+color: #fff;
+font-weight: bold;
+display: none;
+}
