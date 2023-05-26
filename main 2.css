@@ -39,7 +39,9 @@ input {
 }
 
 ul {
-    text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
     
 }
 
