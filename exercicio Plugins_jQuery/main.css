@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+
+}
+
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 16px;
+    background-color: rgb(69, 69, 134);
+    color:#fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+.container {
+    width: 100%;
+    margin: 20px 16px;
+    display: block;
+   
+    
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+    
+}
+
+.form-campo input{
+    width: 20%;
+    padding: 8px ;
+
+}
+
+.form-campo .endereço input {
+ width: 10%;
+
+}
+
+button {
+    text-align:center;
+    width: 10%;
+    padding: 8px;
+    border: none;
+    background-color: rgb(69, 69, 134);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
