@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0p;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+header .container {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    font-style: normal;
+    color: black;
+}
+
+.menu li a {
+    text-decoration: none;
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.container-conteudo {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 90px 60px;
+}
+
+.sobre-a-loja h2 {
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.sobre-a-loja h4 {
+    padding-top: 40px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.sobre-a-loja img {
+    float: left;
+    margin-left: 10px;
+    height: 400px;
+    padding-right: 50px;
+}
+
+h2 {
+    padding: 20px 50px;
+    border-bottom: 2px solid black;
+}
+
+.mais-vendidos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
+    justify-content: center;
+    padding-left: 50px;
+
+}
+
+.mais-vendidos h3 {
+    font-size: large;
+    padding: 10px;
+}
+
+.price {
+    padding: 10px;
+}
+
+.mais-vendidos img {
+    height: 400px;
+}
+
+.mais-vendidos button {
+    height: 30px;
+    font-size: medium;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgb(238, 227, 213);
+}
+
+@media screen and (max-width: 767px) {
+
+    .container-conteudo,
+    .mais-vendidos {
+        display: block;
+    }
+
+    .sobre-a-loja img {
+        height: 200px;
+
+    }
+
+    .mais-vendidos img {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .container-conteudo,
+    .mais-vendidos {
+        display: block;
+    }
+
+    .sobre-a-loja img {
+        height: 400px;
+
+    }
+
+    .mais-vendidos img {
+        height: 400px;
+    }
+
+    .mais-vendidos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+}
