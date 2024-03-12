@@ -1,16 +1,20 @@
+const turma1 = [
+    {nome: 'Enzo', nota: 8},
+    {nome: 'Maria' , nota: 10},
+    {nome: 'Ana', nota: 4},
+    {nome: 'Joao', nota: 5},
+    {nome: 'Carol', nota: 6},
+    {nome: 'Pedro', nota: 2},
+];
 
-$(document).ready(function(){
+function alunosAprovadosDaTurma(turma) {
+    return turma.filter(aluno => aluno.nota >= 6);
 
-    $('form').on('submit', function(e){
-        e.preventDefault();
-        const inputNomeDaTarefa = $('#nome-tarefa').val();
-        const addNaLista = $('#lista-tarefa');
-        
-        $('<li>').text(inputNomeDaTarefa).appendTo(addNaLista) ;
-    })
-    
-    $('#lista-tarefa').on('click','li', function (){
-    $(this).toggleClass('item-completado');
-    })
+}
 
-})
+const aprovados = alunosAprovadosDaTurma(turma1)
+
+console.log(`Os alunos aprovados da Turma1 são:`);
+aprovados.forEach(aluno => {
+    console.log(`${aluno.nome}`);
+});
