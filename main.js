@@ -1,16 +1,7 @@
-
-$(document).ready(function(){
-
-    $('form').on('submit', function(e){
-        e.preventDefault();
-        const inputNomeDaTarefa = $('#nome-tarefa').val();
-        const addNaLista = $('#lista-tarefa');
-        
-        $('<li>').text(inputNomeDaTarefa).appendTo(addNaLista) ;
-    })
-    
-    $('#lista-tarefa').on('click','li', function (){
-    $(this).toggleClass('item-completado');
-    })
-
-})
+"use strict";
+const multiplicaNumeros = (numeroMultiplicado, numeroMultiplicador) => numeroMultiplicado * numeroMultiplicador;
+const multiplicaNumeros2 = multiplicaNumeros(100, 2);
+console.log(multiplicaNumeros2);
+const saudacao = (nome) => "Olá " + nome;
+const nomesaudacao = saudacao('Ana');
+console.log(nomesaudacao);
